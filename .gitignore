@@ -1,0 +1,9 @@
+﻿# Terraform / local
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.pem
+.env
+__pycache__/
+*.log

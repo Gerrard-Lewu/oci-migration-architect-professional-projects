@@ -1,0 +1,5 @@
+﻿flowchart LR
+  User --> LB[OCI Load Balancer]
+  LB --> InstanceA[Compute Instance A]
+  LB --> InstanceB[Compute Instance B]
+  InstanceA --> DB?[(none)]
